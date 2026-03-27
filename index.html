@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rania Rhaiem | DevOps Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="#hero" class="logo"></a>
+        <ul class="nav-links">
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="hero">
+    <div class="container hero-container">
+        <h1>Hi, I'm Rania Rhaiem</h1>
+        <p>DevOps Engineer | Linux Systems Engineer | Kubernetes | Cloud & Automation | Open to Relocation</p>
+        <div class="hero-links">
+            <a href="https://github.com/raniarhaiem9" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/rania-rhaiem" target="_blank">LinkedIn</a>
+            <a href="mailto:rania.rhaiem99@gmail.com">Email Me</a>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <h2>About me</h2>
+        <p>
+            Ingénieur DevOps et Cloud spécialisée dans Kubernetes, l’automatisation des infrastructures et les pipelines CI/CD.
+            Expérimentée dans la mise en place de clusters haute disponibilité (HA), l’automatisation des déploiements et l’amélioration
+            de la fiabilité des environnements cloud et bare-metal.
+        </p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Cloud & Virtualization:</strong> AWS, Azure, OpenStack, DigitalOcean, Proxmox VE, KVM, VMware, VirtualBox, Vagrant</li>            
+            <li><strong>Object Storage:</strong> MinIO, DigitalOcean Spaces (S3-compatible)</li>            
+            <li><strong>Containerization & Orchestration:</strong> Docker, Kubernetes, Helm</li>            
+            <li><strong>Infrastructure as Code (IaC) & Automation:</strong> Terraform, Ansible, Packer</li>           
+            <li><strong>CI/CD & DevOps Tools:</strong> Backstage, Jenkins, ArgoCD (GitOps), Gitea, Harbor, Nexus</li>            
+            <li><strong>Monitoring & Logging:</strong> Nagios Core, Prometheus, Grafana, Loki, Alloy, Kube-State-Metrics (KSM)</li>            
+            <li><strong>Programming & Development:</strong> Python, Java, Spring Boot, JavaScript/TypeScript, Angular, Express.js, SQL/MySQL</li>            
+            <li><strong>Operating Systems:</strong> Linux (Ubuntu, CentOS, AlmaLinux)</li>
+            <li><strong>Secrets Management:</strong> HashiCorp Vault, Sealed Secrets, External Secrets Operator (ESO), AWS Secrets Manager</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Multi-Cloud k3s Provisioning</h3>
+                <p>Provisioning and managing multi-cloud Kubernetes clusters using k3s.</p>
+                <a href="https://github.com/raniarhaiem9/multi-cloud-k3s-provisioning" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Vault Multi-Tenant KMS</h3>
+                <p>Implemented multi-tenant key management system using Vault.</p>
+                <a href="https://github.com/raniarhaiem9/vault-multitenant-kms" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Kanister MariaDB Encrypted Backup</h3>
+                <p>Automated encrypted backups for MariaDB using Kanister.</p>
+                <a href="https://github.com/raniarhaiem9/kanister-mariadb-encrypted-backup" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="section">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <!-- Pocteo Factory -->
+            <div class="timeline-item">
+                <h3>DevOps Engineer – Pocteo Factory</h3>
+                <span>Feb 2025 – Mar 2026</span>
+                <ul>
+                    <li>Implemented Backstage developer portal to centralize microservices documentation and improve developer experience.</li>
+                    <li>Managed Proxmox bare-metal servers, including HA clustering and live VM migration, and administered HP iLO4 servers.</li>
+                    <li>Packaged and deployed applications with Helm, configured multi-tenant Kubernetes clusters, and set up high-availability clusters using Kubespray and MetalLB.</li>
+                    <li>Troubleshot and debugged Kubernetes environments, developed Helm charts, and implemented security hardening with Falco.</li>
+                    <li>Automated infrastructure provisioning with Terraform and Ansible, created custom Linux VM images using Packer.</li>
+                    <li>Built and maintained CI/CD pipelines with Jenkins and ArgoCD, incorporating vulnerability scanning with Trivy.</li>
+                    <li>Monitored infrastructure and applications using Prometheus and Grafana.</li>
+                    <li>Planned and executed Kubernetes disaster recovery, including hot migration and automated worker reinstallation with Ansible.</li>
+                </ul>
+                <a href="https://www.pocteo.com/" target="_blank" class="company-website-link">View Company Website</a>
+            </div>
+
+            <!-- Asten Cloud -->
+            <div class="timeline-item">
+                <h3>DevOps Engineer – Consultant - Asten cloud</h3>
+                <span>Feb 2025 – Jan 2026</span>
+                <ul>
+                    <li>Deployed and managed applications on Kubernetes production clusters using Helm for packaging and release management.</li>
+                    <li>Implemented GitOps workflows with ArgoCD to ensure automated, traceable, and consistent deployments.</li>
+                    <li>Monitored cluster health and application performance using Prometheus and Grafana.</li>
+                    <li>Designed and configured alerting rules integrated with Mattermost to ensure rapid incident detection and response.</li>
+                    <li>Managed container images and registries with Harbor and automated developer workflows via Gitea.</li>
+                    <li>Troubleshot incidents across CI/CD pipelines, Kubernetes workloads, and infrastructure components.</li>
+                    <li>Contributed to secrets management practices using Vault.</li>
+                </ul>
+                <a href="https://www.groupe-asten.fr/" target="_blank" class="company-website-link">View Company Website</a>
+            </div>
+
+            <!-- Tunihealth Assistance -->
+            <div class="timeline-item">
+                <h3>DevOps Engineer – Consultant Tunihealth Assistance</h3>
+                <span>Jan 2025 – Feb 2025</span>
+                <ul>
+                    <li>Led the deployment process of Tunihealth app on OxaCloud, a Tunisian cloud provider.</li>
+                    <li>Implemented automation measures using Jenkins to streamline application deployment.</li>
+                </ul>
+                <a href="https://tunihealthassistance.com/" target="_blank" class="company-website-link">View Company Website</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+        <h2>Education & Certifications</h2>
+
+        <div class="edu-grid">
+
+            <!-- Education -->
+            <div class="edu-card">
+                <h3>🎓 Education</h3>
+                <div class="edu-item">
+                    <strong>Engineering Curriculum – ESPRIT</strong>
+                    <span>2021 - 2024</span>
+                    <p>Specialization in IT Architecture and Cloud Computing</p>
+                </div>
+
+                <div class="edu-item">
+                    <strong>Bachelor’s Degree – ISTIC</strong>
+                    <span>2018 - 2021</span>
+                    <p>Computer Science and Telecommunications</p>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="edu-card">
+                <h3>📜 Certifications</h3>
+                <div class="edu-item">
+                    <strong>CISCO – Network Security</strong>
+                    <span>2024</span>
+                </div>
+
+                <div class="edu-item">
+                    <strong>IBM – Big Data Engineer v2</strong>
+                    <span>2021</span>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="edu-card">
+                <h3>🌍 Languages</h3>
+                <div class="lang-item">Arabic – Native</div>
+                <div class="lang-item">French – Fluent</div>
+                <div class="lang-item">English – Fluent</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+ <section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <strong>Email</strong>
+                <a href="mailto:rania.rhaiem99@gmail.com">rania.rhaiem99@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+                <strong>LinkedIn</strong>
+                <a href="https://linkedin.com/in/rania-rhaiem" target="_blank">linkedin.com/in/rania-rhaiem</a>
+            </div>
+
+            <div class="contact-card">
+                <strong>GitHub</strong>
+                <a href="https://github.com/raniarhaiem9" target="_blank">github.com/raniarhaiem9</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Rania Rhaiem. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
