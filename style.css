@@ -92,6 +92,7 @@ body {
   margin-bottom: 3rem;
   font-size: 2.2rem;
   background: linear-gradient(90deg,#FF6B6B,#FF9C6B);
+  background-clip: text;              /* standard */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -259,6 +260,7 @@ body {
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
   background: linear-gradient(90deg,#FF6B6B,#FF9C6B);
+  background-clip: text;              
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
